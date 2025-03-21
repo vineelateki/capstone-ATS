@@ -1,0 +1,234 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Amit Khanna",
+      "email": "amit.khanna@example.com",
+      "password": "secure_admin_123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Priya Mehta",
+      "email": "priya.mehta@example.com",
+      "password": "strongPass#1",
+      "role": "employee"
+    },
+    {
+      "id": "3",
+      "name": "Rohan Kapoor",
+      "email": "rohan.kapoor@example.com",
+      "password": "strongPass#2",
+      "role": "employee"
+    },
+    {
+      "id": "4",
+      "name": "Sanya Gupta",
+      "email": "sanya.gupta@example.com",
+      "password": "strongPass#3",
+      "role": "employee"
+    },
+    {
+      "id": "5",
+      "name": "Kiran Nair",
+      "email": "kiran.nair@example.com",
+      "password": "vineelaSecure@5",
+      "role": "employee"
+    },
+    {
+      "id": "7589",
+      "name": "vineela",
+      "email": "vineela@gmail.com",
+      "password": "vineela",
+      "role": "employee"
+    },
+    {
+      "id": "ba80",
+      "name": "vineela",
+      "email": "vineela@gmail.com",
+      "password": "vineela",
+      "role": "employee"
+    },
+    {
+      "id": "894c",
+      "name": "vineela",
+      "email": "vineela@gmail.com",
+      "password": "vineela",
+      "role": "employee"
+    }
+  ],
+  "scrums": [
+    {
+      "id": "101",
+      "name": "Delhi Tech Wizards"
+    },
+    {
+      "id": "102",
+      "name": "Chennai Code Masters"
+    },
+    {
+      "id": "103",
+      "name": "Pune Software Gurus"
+    },
+    {
+      "id": "104",
+      "name": "Kolkata Cyber Squad"
+    },
+    {
+      "id": "105",
+      "name": "Ahmedabad Agile Experts"
+    },
+    {
+      "id": "6a8a",
+      "name": "priya"
+    },
+    {
+      "id": "5c96",
+      "name": "wipro"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "201",
+      "title": "Develop API Integration",
+      "description": "Implement authentication API for user login",
+      "status": "Done",
+      "scrumId": "101",
+      "assignedTo": "2",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-01"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "Done",
+          "date": "2024-08-30"
+        }
+      ]
+    },
+    {
+      "id": "202",
+      "title": "Optimize Database Queries",
+      "description": "Improve database indexing and optimize slow queries",
+      "status": "In Progress",
+      "scrumId": "102",
+      "assignedTo": "3",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-02"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-20"
+        }
+      ]
+    },
+    {
+      "id": "203",
+      "title": "Implement UI Design",
+      "description": "Redesign the dashboard layout using React",
+      "status": "In Progress",
+      "scrumId": "103",
+      "assignedTo": "4",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-19"
+        }
+      ]
+    },
+    {
+      "id": "204",
+      "title": "Security Enhancement",
+      "description": "Implement OAuth2 for secure authentication",
+      "status": "To Do",
+      "scrumId": "104",
+      "assignedTo": "5",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-15"
+        }
+      ]
+    },
+    {
+      "id": "205",
+      "title": "Mobile App Integration",
+      "description": "Integrate mobile push notifications for real-time updates",
+      "status": "Done",
+      "scrumId": "105",
+      "assignedTo": "3",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-06-10"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-07-01"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-19"
+        }
+      ]
+    },
+    {
+      "id": "9cde",
+      "title": "implement",
+      "description": "implement a task",
+      "status": "To Do",
+      "scrumId": "6a8a",
+      "assignedTo": "2",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-21"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-21"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-21"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-21"
+        }
+      ]
+    },
+    {
+      "id": "144b",
+      "title": "react",
+      "description": "implement aproject",
+      "status": "Done",
+      "scrumId": "5c96",
+      "assignedTo": "2",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-21"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-21"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-21"
+        }
+      ]
+    }
+  ]
+}

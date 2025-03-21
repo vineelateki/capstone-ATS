@@ -1,0 +1,217 @@
+/* 🔹 User Profile Container */
+.user-profile-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #f8f9fa; /* Light gray */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.12);
+    border-radius: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 🔹 Header */
+.user-profile-container h2 {
+    text-align: center;
+    color: #2c3e50; /* Dark Gray */
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+/* 🔹 Add User Button */
+.add-user-button {
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient Blue */
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+    transition: 0.3s ease-in-out;
+}
+
+.add-user-button:hover {
+    background: linear-gradient(135deg, #4c00b0, #1956d4);
+    transform: scale(1.05);
+}
+
+/* 🔹 Form Styling */
+.user-form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 25px auto;
+}
+
+.user-form div {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2c3e50;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #bdc3c7;
+    box-sizing: border-box;
+    transition: border 0.3s ease-in-out;
+}
+
+input:focus, select:focus {
+    border-color: #6a11cb;
+    outline: none;
+}
+
+/* 🔹 Create User Button */
+.create-user-button {
+    width: 100%;
+    padding: 14px;
+    font-size: 17px;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c); /* Gradient Pink */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.create-user-button:hover {
+    background: linear-gradient(135deg, #ff5c8a, #ff3b6f);
+    transform: scale(1.05);
+}
+
+/* 🔹 User List */
+.user-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.user-item {
+    background: #ecf0f1;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-item strong {
+    color: #2c3e50;
+    font-size: 17px;
+}
+
+/* 🔹 Get History & Delete Buttons */
+.history-button {
+    background: linear-gradient(135deg, #1abc9c, #16a085); /* Gradient Green */
+    padding: 10px 16px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.history-button:hover {
+    background: linear-gradient(135deg, #0f8a74, #0d6a5d);
+    transform: scale(1.05);
+}
+
+.delete-button {
+    background: linear-gradient(135deg, #ff4757, #e84118); /* Gradient Red */
+    padding: 10px 16px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.delete-button:hover {
+    background: linear-gradient(135deg, #d32f2f, #b71c1c);
+    transform: scale(1.05);
+}
+
+/* 🔹 Task List */
+.task-list {
+    margin-top: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    background: #ffffff;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 🔹 Task Status Colors */
+.task-status {
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.task-status.to-do {
+    color: white;
+    background: linear-gradient(135deg, #ff4b2b, #ff416c); /* Gradient Red */
+}
+
+.task-status.in-progress {
+    color: black;
+    background: linear-gradient(135deg, #fddb3a, #f7c41f); /* Gradient Yellow */
+}
+
+.task-status.done {
+    color: white;
+    background: linear-gradient(135deg, #00c853, #009624); /* Gradient Green */
+}
+
+/* 🔹 Task History */
+.task-history {
+    margin-top: 18px;
+}
+
+.task-history h5 {
+    font-size: 17px;
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.task-history ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-history li {
+    font-size: 15px;
+    padding: 8px;
+    background: #ecf0f1;
+    margin-top: 6px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
