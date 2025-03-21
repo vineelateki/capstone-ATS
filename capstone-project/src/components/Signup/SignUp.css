@@ -1,0 +1,75 @@
+/* 🌟 SignUp.css - Updated Styling */
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fdfdfd; /* Soft White */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* 🔹 Signup Title */
+.signup-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #2c3e50; /* Dark Blue */
+}
+
+/* 🔹 Form Styling */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form label {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #444; /* Dark Gray */
+}
+
+/* 🔹 Input Fields */
+.signup-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Focus Effect */
+.signup-form input:focus {
+    border-color: #e67e22; /* Orange */
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(230, 126, 34, 0.5);
+}
+
+/* 🔹 Signup Button */
+.signup-form button {
+    background: #e74c3c; /* Red */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.signup-form button:hover {
+    background: #c0392b; /* Darker Red */
+}
+
+/* 🔹 Responsive Design */
+@media (max-width: 480px) {
+    .signup-container {
+        width: 90%;
+        padding: 20px;
+    }
+}

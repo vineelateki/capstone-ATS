@@ -1,0 +1,55 @@
+/* 🔹 Task History Styling */
+.task-history {
+    margin-top: 15px;
+    padding: 12px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    width: fit-content; /* Adjust width based on content */
+}
+
+/* 🔹 History Title */
+.task-history h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* 🔹 History List */
+.task-history ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* 🔹 Align Status & Date in a Row */
+.task-history li {
+    display: flex;
+    justify-content: space-between; /* Proper alignment */
+    align-items: center;
+    width: 300px; /* Ensure consistent width */
+    font-size: 14px;
+    padding: 10px;
+    background: #ffffff;
+    border-left: 4px solid #007bff;
+    margin-top: 5px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 Status Label */
+.status-label {
+    display: inline-block;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-transform: capitalize;
+    min-width: 100px; /* Fixed width ensures date alignment */
+    text-align: center;
+}
+
+/* 🔹 Status Colors */
+.status.to-do { background-color: #ff4d4d; color: white; }
+.status.in-progress { background-color: #ffc107; color: black; }
+.status.done { background-color: #28a745; color: white; }
